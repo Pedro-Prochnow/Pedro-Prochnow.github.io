@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil</title>
+</head>
+<body>
+    <center>
+    <div id="inicioDiv">
+        <h1>Pedro Henrique Prochnow</h1>
+        <h3>Aluno do curso Aprender e Crescer</h3>
+        <img src="imagens/Captura de tela 2025-03-27 221131.png" alt="Foto de perfil">
+    </div>
+    </center>
+
+    <br /> 
+
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="2" align="center"><b>Contato</b></td>
+        </tr>
+        <tr>
+            <td><b>Email:</b></td>
+            <td>pedrohenriqueprochnow@gmail.com</td>
+        </tr>
+        <tr>
+            <td><b>Telefone:</b></td>
+            <td>(11) 1234-5678</td>
+        </tr>
+        <tr>
+            <td><b>LinkedIn:</b></td>
+            <td>linkedin.com/in/pedro-henrique-prochnow/</td>
+        </tr>
+    </table>
+
+    <br />
+
+    <form>
+        <fieldset>
+            <legend><b>Sobre Mim</b></legend>
+            
+            <div id="descricaoDiv">
+            <label>Descrição:</label><br>
+            <textarea rows="4" cols="70">Aluno do Curso Aprender e Crescer. Busco aprender sobre a área de tecnologia.</textarea><br />
+            </div>
+            <br />
+
+            <div id="senhaDiv">
+            <label>Senha:<br>
+            <input type="password" name="senha">
+            </label><br><br>
+            </div>
+
+            <div id="nascimentoDiv"> </div>
+            <label>Data de Nascimento:<br>
+            <input type="date" name="nascimento" value="2009-07-30">
+            </label><br><br>
+            </div>
+            
+            <div id="curriculoDic">
+            <label>Meu Currículo:<br>
+            <input type="file" name="curriculo">
+            </div>
+        </label>
+        </fieldset>
+
+    <fieldset>
+      <legend><b>Formação Acadêmica</b></legend>
+      <table border="1" width="100%">
+        <tr>
+          <th>Instituição</th>
+          <th>Curso</th>
+          <th>Ano de Conclusão</th>
+        </tr>
+        <tr>
+          <td><input type="text" value="CCM Vinicius de Moraes"></td>
+          <td><input type="text" value="Aprender e Crescer"></td>
+          <td><input type="number" value="2025"></td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Experiências</b></legend>
+      <input type="text" value="Curso Aprender e Crescer"><br><br>
+      <input type="text" value="Sem experiência profissional">
+    </fieldset>
+
+    <fieldset>
+      <legend><b>Habilidades</b></legend>
+      <label><input type="checkbox" checked> HTML básico</label><br>
+      <label><input type="checkbox"> Lógica de programação</label><br>
+      <label><input type="checkbox"> Comunicação</label>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Idiomas:</b></legend>
+        
+        <div id="inglesDiv">
+        <p>Inglês:</p>
+        <label><input type="radio" name="ingles" value="basico"> Básico</label>
+        <label><input type="radio" name="ingles" value="intermediario" checked> Intermediário</label>
+        <label><input type="radio" name="ingles" value="avancado"> Avançado</label>
+        </div>
+
+        <br />
+
+        <div>
+        <label>Outro idioma:
+        <select name="outro_idioma">
+            <option>Francês</option>
+            <option selected>Espanhol</option>
+            <option>Alemão</option>
+        </select>
+        </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Objetivos Profissionais</b></legend>
+        <div id="listaobjtDiv">
+        <ul>
+            <li>Crescimento na carreira</li>
+            <li>Atuar com projetos reais</li>
+            <li>Trabalhar com boas práticas</li>
+        </ul>
+        </div>
+    </fieldset>
+
+    <fieldset>
+    <legend><b>Enviar usando imagem</b></legend>
+    <div id="enviarimgDiv">
+        <label>
+        <input type="image" src="imagens/envio.png" alt="Botão Enviar" width="100">
+        </label>
+    </div>
+    </fieldset>
+
+    <br>
+    <center>
+      <button type="submit">✅Enviar</button>
+      <button type="reset">❌Limpar</button>
+    </center>
+  </form>
+</body>
+</html>
